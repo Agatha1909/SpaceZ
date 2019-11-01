@@ -1,0 +1,336 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/*{outline: 1px solid orange;}*/
+
+/*основное*/
+body {
+    font-size: 14px;
+    background: #222222;
+    color: #d4d4d4;
+    font-family: Verdana;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+button {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.div-1 {
+    margin-left: auto;
+}
+
+.div-4 {
+    margin-right: auto;
+}
+
+/*навигация*/
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 34px;
+}
+
+.logo {
+    width: 60px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.commun {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commun img {
+    padding-left: 24px;
+}
+
+/*главный экран*/
+.frist_screen {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.intro h1 {
+    color: white;
+    /*font-family: monospace;*/
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 71px;
+}
+
+.intro p {
+    padding-bottom: 56px;
+}
+
+.moon {
+    margin-right: auto;
+    padding-bottom: 120px;
+    margin-top: 23px;
+}
+
+.intro button {
+    background: #ffcb06;
+    width: 240px;
+}
+
+
+/*преимущества*/
+.advantages {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 86px 0;
+    background-color: #131313;
+}
+
+.advantages div {
+    padding-right: 80px;
+}
+
+.advantages img {
+    padding-bottom: 40px;
+}
+
+/*контент*/
+.content {
+    background: white;
+    color: black;
+}
+
+/*карта*/
+.moon-vacation {
+    display: flex;
+    align-content: space-around;
+    padding-top: 84px;
+}
+
+.moon-vacation img {
+    padding-right: 80px;
+    margin-left: auto;
+}
+
+.moon-vacation div {
+    margin-right: auto;
+}
+
+.moon-vacation h2 {
+    color: #131313;
+    padding-bottom: 54px;
+}
+
+.black_text p {
+    color: #222222;
+}
+
+.moon-vacation p {
+    padding-bottom: 29px;
+    color: #222222;
+}
+
+/*рекомендации*/
+.recommendations {
+    display: flex;
+    list-style: none;
+    padding-bottom: 56px;
+    color: #222222;
+}
+
+.recommendations .div-1 {
+    padding-right: 100px;
+}
+
+.recommendations h2 {
+    padding-left: 39px;
+    padding-bottom: 41px;
+    padding-top: 55px;
+    margin: 0px;
+    color: #131313;
+}
+
+.recommendations li {
+    padding-bottom: 26px;
+}
+
+.recommendations ul {
+    list-style: none;
+}
+
+.recommendations li::before {
+    display: block;
+    position: relative;
+    content: "";
+    color: #ffcb06;
+    left: -24px;
+    top: 14px;
+    width: 8px;
+    height: 8px;
+    background-color: #ffcb06;
+    border-radius: 50%;
+}
+
+
+/*форма отправки*/
+.form {
+    display: flex;
+    background-color: #f0f0f0;
+    color: #222222;
+}
+
+.form button {
+    width: 215px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 33px;
+}
+
+.form div {
+    margin-left: auto;
+    margin-right: 186px;
+}
+
+.form h2 {
+    padding-top: 99px;
+    padding-bottom: 53px;
+    color: #131313;
+}
+
+.form div p {
+    padding-bottom: 231px;
+}
+
+.form form {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+}
+
+.form input {
+    margin-bottom: 8px;
+    height: 50px;
+    width: 440px;
+    background-color: #ffffff;
+    border: none;
+}
+
+#checkbox {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#checkbox input {
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 16px;
+}
+
+.inputs input {
+    width: 215px;
+    margin-right: 5px;
+}
+
+a:hover{
+    color:white;
+    cursor: pointer;
+}
+a:active{
+    color:#d4d4d4;
+}
+
+.timetable h2{
+    color:#feca30;
+}
